@@ -1,0 +1,19 @@
+{
+  "name": "headerparser",
+  "version": "1.0.0",
+  "description": "Request Header Parser Microservice - Get your IP address, language, and operating system from your browser.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicholasRohrer/header-parser.git"
+  },
+  "author": "Nicholas Rohrer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicholasRohrer/header-parser/issues"
+  },
+  "homepage": "https://github.com/NicholasRohrer/header-parser#readme"
+}
