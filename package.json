@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/NicholasRohrer/header-parser/issues"
   },
-  "homepage": "https://github.com/NicholasRohrer/header-parser#readme"
+  "homepage": "https://github.com/NicholasRohrer/header-parser#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "express-useragent": "^1.0.7"
+  }
 }
