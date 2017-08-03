@@ -1,8 +1,10 @@
+// require all installed modules
 var express = require("express");
 var cors = require("cors");
 var bodyParser = require("body-parser");
 var useragent = require("express-useragent");
 
+// instantiate app
 var app = express();
 app.use(bodyParser.json());
 app.use(cors());
@@ -10,6 +12,7 @@ app.use(useragent.express());
 
 var api = '/api/whoami';
 
+// call to backend api, response in JSON
 app.get(api, function(req, res){
     var ip       = req.ip;
     var lang     = req.acceptsLanguages()[0];
